@@ -1,4 +1,4 @@
-package qmau.me.cs.java.dataStructure;
+package me.qmau.cs.java.dataStructure;
 
 public class LinkedListQueue<Item> {
 
