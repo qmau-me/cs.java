@@ -1,0 +1,20 @@
+void bubblesort(double array[],int size)
+{
+double temp;
+
+  for(int pass=1;pass<size;pass++)
+  {
+  
+    for(int i=o;i<size-pass;i++)
+    {
+      if(array[i]>arrayarray[i+1])
+      {
+      temp=array[i];
+      array[i]=array[i+1];
+      array[i+1]=temp;
+      }
+    }
+    
+  }
+
+}

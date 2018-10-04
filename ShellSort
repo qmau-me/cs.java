@@ -1,0 +1,20 @@
+public int ShellSort()
+  {
+    int count=0;
+    int j;
+    int a[];
+    for( int gap = index / 2; gap > 0; gap /= 2 )
+    {
+      for( int i = gap; i < index; i++ )
+      {
+         temp = a[ i ];
+         for( j = i; j >= gap && (temp.getName().compareTo( dvdlist[ j - gap ].getName())< 0); j -= gap )
+         {
+           a[ j ] = a[ j - gap ];
+           count++;
+         }
+         a[ j ] = temp;
+      }
+    }
+    return count;
+  }

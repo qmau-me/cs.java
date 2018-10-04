@@ -1,0 +1,21 @@
+    public int InsertionSort()
+    {  
+        int count =0;
+        int in;
+        int out;
+        int a[];
+    for (out =1; out < index; out++)
+    {
+    temp = a[out];
+    in = out;
+    while(in > 0 && a[in-1]>= temp)
+    {
+        a[in] = dvdlist[in-1];
+        in--;
+        count++;
+    }
+    a[in]=temp;
+
+    }
+    return count;
+    }
