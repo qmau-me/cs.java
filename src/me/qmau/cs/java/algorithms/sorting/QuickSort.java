@@ -1,7 +1,10 @@
 package me.qmau.cs.java.algorithms.sorting;
 
+import common.Print;
+import common.Random;
 import common.StdOut;
 import common.StdRandom;
+import common.Stopwatch;
 
 public class QuickSort {
     public static void sort(int[] a) {
@@ -46,18 +49,16 @@ public class QuickSort {
         a[j] = temp;
     }
 
-    public static void printOut(int[] a) {
-        for (int i = 0; i < a.length; i++) {
-            StdOut.print(a[i] + ",");
-        }
+    public static void execute(int a[]) {
+        Stopwatch stopWatch = new Stopwatch();
+        sort(a);
+        Print.array(a);
+        StdOut.println("Time: " + stopWatch.elapsedTime() + "s");
     }
 
+
     public static void main(String args[]) {
-        int[] a = new int[100000];
-        for (int i = 0; i < a.length; i++) {
-            a[i] = StdRandom.uniform(0, 100000);
-        }
-        sort(a);
-        printOut(a);
+        int[] a = Random.intArray(10000000);
+        execute(a);
     }
 }
