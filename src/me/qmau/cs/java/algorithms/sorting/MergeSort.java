@@ -1,7 +1,7 @@
 package me.qmau.cs.java.algorithms.sorting;
 
-import edu.princeton.cs.algs4.StdOut;
-import edu.princeton.cs.algs4.StdRandom;
+import common.StdOut;
+import common.StdRandom;
 
 public class MergeSort {
 
