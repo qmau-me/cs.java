@@ -1,7 +1,7 @@
 # cs.java
 Computer Science in Java
 
-# Data Structure 
+# Data Structure:- 
 1. Queue
   - Linked List Implementation
   - Resizing Array Implementation
@@ -9,7 +9,7 @@ Computer Science in Java
   - Linked List Implementation
   - Resizing Array Implementation
 
-# Algorithms
+# Algorithms:-
 ## Sorting
 1. Insertion Sort
 2. Merge Sort
